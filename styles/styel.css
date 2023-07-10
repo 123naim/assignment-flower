@@ -14,7 +14,6 @@ header {
     width: 80%;
     align-items: center;
     margin: auto;
-    /* height: 100vh; */
 }
 
 .header-title {
@@ -46,4 +45,114 @@ header {
     padding-top: 28px;
     width: 500px;
     height: 600px;
+}
+
+/* main section styel start here */
+
+/* feature section style start here */
+.feature-section{
+    margin: 60px 0px;
+    text-align: center;
+}
+.feature-title{
+    font-size: 35px;
+    margin-bottom: 18px;
+}
+.feature-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+.feature-flowers{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    gap: 10px;
+}
+.featu-flower-1{
+    background-color: #A7216226;
+    padding: 50px 50px 0 50px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+.featu-flower-2{
+    background-color: #0597A026;
+    padding: 50px 50px 0 50px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+.featu-flower-3{
+    background-color: #477D1126;
+    padding: 50px 50px 0 50px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+.featu-des{
+    margin-top: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: rgba(39, 39, 39, 0.9);
+}
+
+/* this is collect section style start here */
+.flower-collect{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    background-color: #2727270D;
+    text-align: center;
+    padding: 50px 0px;
+    justify-content: space-around;
+    margin-bottom: 60px;
+    border-radius: 8px;
+}
+
+.flower-collect > div > p{
+    margin: 20px;
+    font-size: 15px;
+    color: rgba(39, 39, 39, 0.60);
+}
+
+/* this is hot deal section style start here */
+
+.hot-deal-section{
+    background-color: #E554730D;
+    height: 80vh;
+    margin-bottom: 60px;
+}
+
+.hot-deal{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    gap: 70px;
+}
+.hot-deat-title{
+    font-size: 35px;
+}
+.off-color{
+    color: #E55473;
+}
+.hot-deal-description{
+    margin: 20px;
+    font-size: 15px;
+    color: rgba(39, 39, 39, 0.60);
+}
+.sign-up-btn{
+    border-radius: 8px;
+    background: #E55473;
+    width: 150px;
+    height: 50px;
+    border: none;
+    font-size: 20px;
+    color: white;
+}
+.hot-deal-img{
+    margin-top: 40px;
+    width: 310px;
+    height: 420px;
+    padding-left: 70px;
 }
