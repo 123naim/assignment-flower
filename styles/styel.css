@@ -158,6 +158,25 @@ header {
     padding-left: 70px;
 }
 
+
+/* this is quality product style start here */
+.our-products{
+    margin-bottom: 70px;
+    text-align: center;
+}
+.product-title{
+    font-size: 35px;
+    margin-bottom: 18px;
+}
+.product-desc{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+
+
 /* this is instagram section style here */
 .instagram-section{
     text-align: center;
