@@ -176,7 +176,7 @@ header {
     margin: auto;
     display: flex;
     gap: 5px;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
 }
 .instagram-flower>img{
     width: 260px;
@@ -189,7 +189,7 @@ header {
     width: 80%;
     background-size: cover;
     margin: auto;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 .letest-deals>div{
     padding: 100px 70px;
@@ -226,4 +226,32 @@ header {
     font-size: 20px;
     color: white;
     margin-left: 10px;
+}
+
+/* this is footer style start here */
+
+.footer-section{
+    background-color: #111010;
+    color: white;
+    text-align: center;
+    height: 40vh;
+    align-items: center;
+    padding-top: 60px;
+}
+.footer-section>h1{
+    font-size: 30px;
+    margin: 20px;
+}
+.flower{
+    color: #E55473;
+}
+.footer-section>p{
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.footer-section>small{
+    color: gray;
 }
