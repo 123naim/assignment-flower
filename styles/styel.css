@@ -161,7 +161,7 @@ header {
 
 /* this is quality product style start here */
 .our-products{
-    margin-bottom: 70px;
+    margin-bottom: 50px;
     text-align: center;
 }
 .product-title{
@@ -174,8 +174,48 @@ header {
     font-weight: 400;
     margin-top: 10px;
 }
-
-
+.quality-items{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    gap: 12px;
+    margin-bottom: 50px;
+}
+.quality-item{
+    border: 1px solid gray;
+    background-color: rgb(243, 235, 225);
+}
+.quality-item>img{
+    width: 260px;
+    height: 260px;
+}
+.quality-item>h1{
+    padding: 10px 0px 0px 15px;
+    text-transform: uppercase;
+    color: rgb(31, 29, 29);
+}
+.quality-item>p{
+    padding: 0px 0px 35px 15px;
+}
+.quality-item>hr{
+    margin-top: -5px;
+}
+.quality-item>div{
+    display: flex;
+}
+.item-add{
+    border-right: 1px solid gray;
+    font-size: 15px;
+    width: 50%;
+    text-align: center;
+    padding: 15px 0px;
+}
+.item-detail{
+    width: 50%;
+    font-size: 15px;
+    text-align: center;
+    padding: 15px 0px;
+}
 
 /* this is instagram section style here */
 .instagram-section{
